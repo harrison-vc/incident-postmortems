@@ -2,20 +2,18 @@ name: Lint
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
-  lint:
+  markdown:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
-      - name: Install Ruff
-        run: pip install ruff
-      - name: Run Ruff
-        run: ruff check .
+          node-version: "22"
+      - name: Run Markdownlint
+        run: npx --yes markdownlint-cli2

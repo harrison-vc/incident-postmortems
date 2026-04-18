@@ -1,3 +1,5 @@
+[![Lint](https://github.com/harrison-vc/incident-postmortems/actions/workflows/lint.yml/badge.svg)](https://github.com/harrison-vc/incident-postmortems/actions/workflows/lint.yml)
+
 # incident-postmortems
 
 A collection of incident postmortems documenting real-world infrastructure and application failures. This repository demonstrates the process of analyzing outages, identifying root causes, and implementing preventative measures to improve system reliability.
