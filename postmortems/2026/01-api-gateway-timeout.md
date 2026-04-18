@@ -1,7 +1,7 @@
 # Postmortem: API Gateway 504 Timeouts (US-EAST-1)
 
 **Date**: 2026-04-10  
-**Authors**: dexmachina-eth  
+**Authors**: harrison-vc  
 **Status**: Resolved  
 
 ## Summary

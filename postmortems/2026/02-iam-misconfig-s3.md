@@ -1,7 +1,7 @@
 # Postmortem: IAM Permission Error (S3 Upload)
 
 **Date**: 2026-03-22  
-**Authors**: dexmachina-eth  
+**Authors**: harrison-vc  
 **Status**: Resolved  
 
 ## Summary
